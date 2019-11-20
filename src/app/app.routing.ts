@@ -12,9 +12,9 @@ import { ErrorComponent } from './components/error/error.component';
 //definnir las rutas
 const appRoutes: Routes=[
     {path:'',component: HomeComponent},
-    {path:'inicio',component:HomeComponent},
-    {path:'login',component:LoginComponent},
-    {path:'registro',component:RegisterComponent},
+    {path:'Inicio',component:HomeComponent},
+    {path:'Login',component:LoginComponent},
+    {path:'Registro',component:RegisterComponent},
     {path:'**',component:ErrorComponent}    // esta ruta siempre al final 
 ];
 
